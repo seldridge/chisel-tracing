@@ -2,7 +2,7 @@
 
 vpath %.scala ./
 
-all: build/Basic.sv build/Hierarchy.sv build/Function.sv
+all: build/Basic.sv build/Hierarchy.sv build/Function.sv build/Errors.sv
 
 clean:
 	rm -rf build/
